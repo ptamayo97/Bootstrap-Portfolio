@@ -1,0 +1,119 @@
+
+ body {
+    
+    background-image: url(images/background.png)
+}
+
+.whiteback {
+    background-color: #ffffff;
+}
+
+header {
+    padding: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: solid 2px #cccccc;
+}
+
+h1 {
+    color: #4aaaa5;
+    padding: 15px;
+    border-bottom: solid 2px #eeeeee;
+}
+h2 {
+    color: #4aaaa5;
+    margin: 15px;
+    border-bottom: solid 2px #cccccc;
+    padding: 15px 0 15px 0;
+}
+h3 {
+    padding: 15px;
+    background-color: #4aaaa5;
+    text-align: center; 
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+img, p {
+    padding: 15px;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 15px;  
+    border-top: solid 5px #4aaaa5;
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+}
+.links {
+    text-align: end;
+}
+nav {
+    margin: 0px;
+}
+    
+   
+
+#logo {
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 10px;
+}
+.navbar {
+
+padding: 0;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 0px;
+ 
+}
+
+.navbar-collapse {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+} 
+
+.work-link {
+   width: 100%;
+   position: relative;
+   bottom: 48px;
+   padding: 15px;
+}
+
+.work-img {
+    width: 100%;
+    height: 100%;
+}
